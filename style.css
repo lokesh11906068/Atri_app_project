@@ -1,0 +1,863 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.navigation{
+    padding: 20px 150px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.brand img{
+font-size: 40px;
+    cursor: pointer;
+    color: orange;
+}
+
+.brandname h3{
+    font-family:sans-serif,serif;
+    font-weight:500;
+    font-size: 32px;
+    
+    cursor: pointer;
+    
+}
+.navitems{
+    margin-right: 110px
+}
+.navitems li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    color:grey;
+    
+    text-decoration: none;
+}
+
+
+.navside li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+    border:2px solid black;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin:20px;
+    text-decoration:none;
+}
+.navside .onlineorder{
+    padding:10px 25px 10px 25px;
+}
+.navside .reservate{
+    background-color: darkorange;
+    color: white;
+    padding:10px 30px 10px 30px;
+    
+}
+
+
+.content{
+    padding: 20px 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+/*    background-color: aquamarine;*/
+}
+
+.content .heading{
+    width: 50%;
+    height: 500px;
+}
+.content .heading .quote h1:nth-child(1){
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.content .heading .quote h1:nth-child(2){
+    font-size: 50px;
+    color: orange;
+    font-weight: bolder;
+}.content .heading .quote p{
+    margin-top: 60px;
+    color: grey;
+    font-size: 15px;
+    font-family:inherit;
+    margin-bottom: 30px;
+}
+
+.content .imgburger{
+    background-color: orange;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left:150px;
+    overflow-x:visible;
+}
+.content .imgburger img{
+    width:350px;
+    height:300px;
+    margin-top: 40px;
+    margin-left:70px;
+    margin-right:100px;
+    text-align: center;
+}
+
+
+/*APPS*/
+
+
+.favouriteapps .appheading{
+    text-align: center;
+    color: black;
+}
+.favouriteapps{
+    padding: 20px 150px;
+    margin-left:50px;
+}
+.favouriteapps .apps{
+    padding:10px;
+    margin: 
+}
+.favouriteapps .apps li{
+    list-style: none;
+    float:left;
+    margin-left:15px;
+    padding:30px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.favouriteapps .apps li:nth-child(1){
+    color:red;
+    font-family: sans-serif;
+}
+.favouriteapps .apps li:nth-child(3){
+    color: orangered;
+    font-family: monospace;
+}
+.favouriteapps .apps li:nth-child(4){
+    color: maroon;
+    font-family: fantasy;
+}
+
+
+
+/*Menu*/
+
+.menu{
+    padding:20px;
+    padding: 20px 150px;
+    
+}
+.menu .menuitems{
+    display: flex;
+    flex-direction: row;
+}
+.menu h2{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.menu .menuitems .items{
+    border:2px solid grey;
+    border-radius: 15px;
+    padding: 30px;
+    margin:15px;
+    text-align: center;
+}
+.menu .menuitems .items img{
+    background-color: orange;
+    width:100px;
+    height:100px;
+    padding: 10px;
+    border-radius: 50%;
+    margin:20px;
+}
+.menu .menuitems .items h3{
+    color: black;
+    font-weight: bold;
+    margin:15px; 
+}
+.menu .menuitems .items p{
+    color:grey;
+    font-size: 16px;
+    margin:10px;
+}
+.menu .menuitems .items h5{
+    color: orangered;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 20px;
+}
+.menu .menubuttons{
+    text-align: center;
+    cursor: pointer;
+    
+}
+.menu .menubuttons li{
+    list-style: none;
+    float: left;
+}
+.menu .menubuttons .online{
+    background-color: darkorange;
+    color: white;
+    padding:10px 30px 10px 30px;
+    border:2px solid black;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin:20px;
+    margin-left: 340px;
+    text-align: center;
+}
+.menu .menubuttons .bookatable{
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin:20px;
+     padding:10px 30px 10px 30px;
+     border:2px solid black;
+}
+
+
+
+/*About Us*/
+.about{
+        display: flex;
+/*    flex-wrap: wrap;*/
+    flex-direction: row;
+}
+.about{
+    margin-top: 50px;
+    padding: 20px 150px;
+    background-color:cornsilk;
+    width:100%;
+    height: 780px;
+/*    opacity: 0.3;*/
+
+}
+
+.about .aboutimagecontent{
+    padding: px;
+    width: 100%;
+/*    opacity: 0.9;*/
+/*    background-color: red;*/
+}
+.about .aboutimagecontent .aboutimage{
+    width: 5%;
+    height: 5%;
+}
+.about .aboutimagecontent .aboutimage img{
+    margin-top: 60px;
+    width:400px;
+    height: 500px;
+    opacity: 1.0;
+/*    border: 2px solid rosybrown;*/
+    border-radius: 40px;
+    overflow: hidden;
+    background-color:none;
+}
+.about .aboutimagecontent .aboutaddress{
+    background-color: white;
+    margin:480px 0px 0px 80px;
+    padding: 20px;
+    border-radius: 40px;
+}
+.about .aboutimagecontent .aboutaddress li{
+    list-style: none;
+}
+
+.about .aboutimagecontent .aboutaddress li .location{
+    color:orange;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.about .aboutimagecontent .aboutaddress li .phone{
+    color:orange;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.about .aboutimagecontent .aboutaddress li .email{
+    color:orange;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.about .aboutmain{
+    margin: 150px 0px 0px 100px;
+    padding: 10px;
+}
+.about .aboutmain .aboutcontent h2{
+    font-weight: bold;
+    margin-left: 70px;
+    margin-bottom: 40px;
+    
+}
+.about .aboutmain .aboutcontent p{
+    color: grey;
+    line-height: 25px;
+    font-size: 20px;
+    font-family:inherit
+}
+.about .aboutmain .aboutbuttons li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+    border:2px solid black;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin:20px;
+    cursor: pointer;
+    text-decoration:none;
+}
+.about .aboutmain .aboutbuttons ul{
+    margin: 100px 0px 0px 100px;
+}
+.about .aboutmain .aboutbuttons .aboutus{
+    background-color: white;
+    padding: 10px 25px 10px 25px;
+}
+.about .aboutmain .aboutbuttons .joinourteam{
+     background-color: darkorange;
+    color: white;
+    padding:10px 30px 10px 30px;
+}
+
+
+/*Burger Menus*/
+
+.burgertypes{
+     padding: 20px 150px;
+}
+.burgertypes .burgertypesitems .burgeritems1{
+    margin-bottom: 100px
+}
+.burgertypes h1{
+     text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.burgertypes h5{
+    color:grey;
+    text-align: center;
+}
+.burgertypes .burgertypesitems .burgeritems1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.burgertypes .burgertypesitems .burgeritems1 .items{
+/*    border: 2px solid black;*/
+    padding:;
+    margin:15px;
+   
+}
+.burgertypes .burgertypesitems .burgeritems1 .items img{
+    width:100%;
+    height: 300px;
+    border-radius: 30px;
+}
+.burgertypes .burgertypesitems .burgeritems1 .items button{
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.burgertypes .burgertypesitems .burgeritems1 .items h2{
+    color: black;
+    text-align: center;
+    font-family: serif
+}
+.burgertypes .burgertypesitems .burgeritems1 .items p{
+    color: grey;
+    text-align: center;
+}
+
+.burgertypes .burgertypesitems .burgeritems2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.burgertypes .burgertypesitems .burgeritems2 .items{
+/*    border: 2px solid black;*/
+    padding:;
+    margin:15px;
+   
+}
+.burgertypes .burgertypesitems .burgeritems2 .items img{
+    width:100%;
+    height: 300px;
+    border-radius: 30px;
+}
+.burgertypes .burgertypesitems .burgeritems2 .items button{
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.burgertypes .burgertypesitems .burgeritems2 .items h2{
+    color: black;
+    text-align: center;
+    font-family: serif
+}
+.burgertypes .burgertypesitems .burgeritems2 .items p{
+    color: grey;
+    text-align: center;
+}
+
+
+
+.burgertypes .menubuttons{
+    text-align: center;
+    cursor: pointer;
+    
+}
+.burgertypes .menubuttons li{
+list-style: none;
+    float: left;
+}
+.burgertypes .menubuttons .online{
+    background-color: darkorange;
+    color: white;
+    padding:10px 30px 10px 30px;
+    border:2px solid black;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin:20px;
+    margin-left: 340px;
+    text-align: center;
+}
+.burgertypes .menubuttons .bookatable{
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin:20px;
+     padding:10px 30px 10px 30px;
+     border:2px solid black;
+}
+
+
+/*burgerwow*/
+
+.burgerwow{
+/*     padding: 20px 150px;*/
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.burgerwow .burgerwow1{
+    background-color:darkorange;
+    padding:150px 100px;
+    color: white;
+    
+/*    text-align: center;*/
+   
+    
+}
+.burgerwow .burgerwow1 h1{
+    font-size: 45px;
+}
+.burgerwow .burgerwow1 p{
+    margin: 20px;
+    font-size: 16px;    
+    margin-bottom: 50px;
+}
+
+.burgerwow .burgerwow2 img{
+    width:100%;
+    height:800px;
+    margin-left
+}
+.burgerwow .burgerwow1 li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+    border:2px solid white;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin:20px;
+    text-decoration:none;
+}
+.burgerwow .burgerwow1 .onlineorder{
+    padding:10px 25px 10px 25px;
+    background-color: white;
+    color: black;
+}
+.burgerwow .burgerwow1 bookatable{
+    background-color: darkorange;
+    color: white;
+}
+
+/*clients*/
+
+.clients{
+     margin-top:100px;
+     padding: 20px 150px;
+   
+}
+.clients .clientscontent h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.clients .clientscontent p{
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.clients .clientscontent .leftarrow{
+     float: left;
+}
+
+.clients .clientscontent .clientreview{
+    margin:0px 100px;
+    padding: 50px;
+    border: 2px solid grey;
+    border-radius: 30px;
+}
+.clients .clientscontent .clientreview .images img{
+    margin-left: 10px;
+
+    width:20px;
+    height: 20px;
+}
+.clients .clientscontent .clientreview h2{
+    text-align:left;
+    
+}
+.clients .clientscontent .clientreview p{
+    text-align:left;
+    font-size:15px;
+    color: black;
+}
+.clients .clientscontent .clientreview img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.clients .menubuttons{
+    text-align: center;
+    cursor: pointer;
+    
+}
+.clients .menubuttons li{
+list-style: none;
+    float: left;
+}
+.clients .menubuttons .onlineorder{
+    background-color: darkorange;
+    color: white;
+    padding:10px 30px 10px 30px;
+    border:2px solid black;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin:20px;
+    margin-left: 340px;
+    text-align: center;
+}
+.clients .menubuttons .bookatable{
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin:20px;
+     padding:10px 30px 10px 30px;
+     border:2px solid black;
+}
+
+
+/*articles*/
+
+
+.articles{
+    margin-top:100px;
+   background-color:cornsilk;
+    width :100%;
+    height:1200px;;
+}
+.articles .articlebranches{
+display: flex;
+/*    float:left;*/
+    flex-direction: row;
+}
+.articles .articlebranches .mainarticle{
+
+    padding: 100px;
+    margin: 60px;
+    background-color: white;
+    border-radius:30px;
+    
+}
+
+.articles .articlebranches .mainarticle h1{
+    color: black;
+    font-weight: bold;
+}
+.articles .articlebranches .mainarticle img{
+    width:100%;
+    height: 600px;
+    border-radius: 30px;
+    padding:0px;
+}
+.articles .articlebranches .mainarticle p{
+    color: grey;
+}
+.articles .articlebranches .mainarticle h3{
+     color: black;
+    font-weight: bold;
+}
+
+
+.articles .articlebranches .browsearticles{
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles .articlebranches .browsearticles .articleitems{
+/*    border:2px solid grey;*/
+    border-radius: 30px;
+    width:40%;
+    height: 450px;
+    padding: 0px;
+    margin:20px;
+    background-color: white;
+}
+.articles .articlebranches .browsearticles .articleitems img{
+    width:100%;
+    height::300px;
+}
+.articles .articlebranches .browsearticles .articleitems p{
+    color:grey;
+    
+}
+.articles .articlebranches .browsearticles .articleitems h3{
+    color: black;
+    font-weight: bold;
+    
+}
+
+/*bookingtableonline*/
+
+.booktable{
+    display: flex;
+    width:100%;
+     height:auto;
+}
+.booktable .bookingaddress{
+    background-color: white;
+   
+    
+}
+.booktable .bookingaddress .aboutaddress {
+margin-top: 300px;
+    margin-left: 50px;
+    padding: 20px;
+}
+.booktable .bookingaddress .aboutaddress li{
+    list-style: none;
+}
+
+.booktable .bookingaddress .aboutaddress li .location{
+    color:orange;
+    font-size: 35px;
+/*    margin-right: 10px;*/
+}
+.booktable .bookingaddress .aboutaddress li .phone{
+    color:orange;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.booktable .bookingaddress .aboutaddress li .email{
+    color:orange;
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.booktable .bookingform{
+    background-color: orange;
+/*    margin-left:100px;*/
+    padding: 150px;
+    
+}
+.booktable .bookingform .bookingdetails{
+    border:2px solid white;
+    border-radius: 30px;
+    background-color: white;
+    padding:30px;
+}
+
+.booktable .bookingform .bookingdetails form label{
+    color: black;
+    font-size: 20px;
+    margin:10px;
+}
+.booktable .bookingform .bookingdetails form input,textarea{
+    border-radius: 30px;
+    padding: 10px;
+    border:2px solid grey;
+}
+.booktable .bookingform .bookingdetails form textarea{
+    margin-left:50px;
+    padding:10px;
+    text-align: center;
+}
+button{
+    text-align: center;
+    background-color: darkorange;
+    border: none;
+    border-radius: 30px;
+    padding:10px;
+    cursor: pointer
+}
+
+
+/*follow us*/
+.followus{
+    padding: 70px;
+    background-color: cornsilk;
+}
+.followus button{
+    float: right;
+}
+.followus h1{
+    float: left;
+}
+.followus .followitems{
+    display: flex;
+    margin-top: 100px;
+}
+.followus .followitems img:nth-child(1){
+    margin:30px;
+    border-radius: 30px;
+    width:300px;
+    height:300px;
+}
+.followus .followitems img:nth-child(2){
+    margin:10px;
+    border-radius: 30px;
+    width:300px;
+    height:300px;
+}
+.followus .followitems .items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.followus .followitems .items img:nth-child(1){
+    width: 250px;
+    height: 150px;
+}
+.followus .followitems .items img:nth-child(2){
+   width: 250px;
+    height: 150px;
+/*    float: left;*/
+}
+
+.followus .followitems .items img:nth-child(3){
+    width: 250px;
+    height: 150px;
+    
+}
+.followus .followitems .items img:nth-child(4){
+   width: 250px;
+    height: 150px;
+/*    float: left;*/
+}
+
+
+
+/*footer*/
+
+.footer{
+    display: flex;
+    margin: 50px
+}
+.footer .footerbrand img:nth-child(1){
+    width:200px;
+    height:auto;
+   
+}
+.footer .footerbrand h1{
+    color: black;
+    margin-right: 70px;
+    font-weight: bold;
+} 
+.footer .footerbrand p{
+    color: grey;
+}
+.footer .footerpages{
+    margin-left: 240px;
+}
+.footer .footerpages ul h2{
+    color: black;
+}
+.footer .footerpages ul{
+    list-style: none;
+    padding: 30px;
+}
+.footer .footerpages li{
+    color: grey;
+    font-size: 18px;
+    
+}
+
+.footer .footerutility{
+    margin-left: 60px;
+    margin-right: 20px
+}
+.footer .footerutility ul h2{
+    color: black;
+}
+.footer .footerutility ul{
+    list-style: none;
+    padding: 30px;
+}
+.footer .footerutility li{
+    color: grey;
+    font-size: 18px;
+    
+}
+.footer .footerfollow >div{
+    float: left;
+}
+.footer .footerfollow h2{
+    color: black;
+    padding-top: 30px;
+    
+}
+.footer .footerfollow img{
+    float: left;
+    width:200px;
+    height: 100px;
+    margin:10px;
+    border-radius: 30px;
+}
